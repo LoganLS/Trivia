@@ -27,6 +27,6 @@ public class GoldenMaster{
 	
 	public String getGoldenMaster(long seed) throws IOException{
 		return this.getGameResult(seed);
-	}
+	} 
 	
 }

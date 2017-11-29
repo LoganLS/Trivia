@@ -24,7 +24,7 @@ public class Game {
 			sportsQuestions.addLast(("Sports Question " + i));
 			rockQuestions.addLast(createRockQuestion(i));
     	}
-    }
+    } 
 
 	public String createRockQuestion(int index){
 		return "Rock Question " + index;

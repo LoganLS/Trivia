@@ -15,7 +15,7 @@ public class GameRunner {
 
 		play(rand);
 
-	}
+	} 
 
 	public static void play(Random rand) {
 		Game aGame = new Game();

@@ -16,5 +16,5 @@ public class GameTest {
 			String actual=goldenMaster.getGameResult(seed);
 			assertEquals(expected,actual);
 		}
-	}
+	} 
 }

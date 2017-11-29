@@ -4,6 +4,7 @@ import java.util.Random;
 
 import fr.unilim.iut.games.uglytrivia.Game;
 
+
 public class GameRunner {
 
 	private static boolean notAWinner;
@@ -12,6 +13,11 @@ public class GameRunner {
 
 		Random rand = new Random();
 
+		play(rand);
+
+	}
+
+	public static void play(Random rand) {
 		Game aGame = new Game();
 
 		aGame.add("Chet");
@@ -29,6 +35,5 @@ public class GameRunner {
 			}
 
 		} while (notAWinner);
-
 	}
 }
